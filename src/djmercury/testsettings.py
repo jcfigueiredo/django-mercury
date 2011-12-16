@@ -73,7 +73,7 @@ INSTALLED_APPS = [
     'djmercury'
 ]
 
-ROOT_URLCONF = ['urls']
+ROOT_URLCONF = 'djmercury.urls'
 
 LOGGING = {
     'version': 1,
