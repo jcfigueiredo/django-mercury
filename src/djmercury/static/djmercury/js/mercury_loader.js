@@ -63,7 +63,7 @@ if (!window.mercuryPackages) window.mercuryPackages = {
   // created, so for instance you could put `visible=false`, and the editor be hidden after it's created.
   var options = {
     // A path or url from which the javascripts and css should be loaded.
-    src: '/assets',
+    src: '/static/djmercury/js',
     // A value defined in the packages above.  Development is used by default.  If you want to provide your own package
     // you can just define one before including this script.
     pack: 'development'
