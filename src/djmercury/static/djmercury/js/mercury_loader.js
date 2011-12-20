@@ -29,7 +29,7 @@
 // Some default packages are provided for you.  If you want to define your own, feel free to do so before including this
 // script.  These, or your own packages can be specified to the loader in query params (read below for details).
 if (!window.mercuryPackages) window.mercuryPackages = {
-  development: {javascripts: 'mercury.js', stylesheets: 'mercury.css'},
+  development: {javascripts: 'js/mercury.js,js/mercury_dialogs.js', stylesheets: 'css/mercury.bundle.css'},
   bundled: {javascripts: 'javascripts/mercury.min.js,javascripts/mercury_dialogs.js', stylesheets: 'stylesheets/mercury.bundle.css'}
 };
 
@@ -63,7 +63,7 @@ if (!window.mercuryPackages) window.mercuryPackages = {
   // created, so for instance you could put `visible=false`, and the editor be hidden after it's created.
   var options = {
     // A path or url from which the javascripts and css should be loaded.
-    src: '/static/djmercury/js',
+    src: '/static/djmercury',
     // A value defined in the packages above.  Development is used by default.  If you want to provide your own package
     // you can just define one before including this script.
     pack: 'development'
